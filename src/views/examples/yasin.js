@@ -42,7 +42,7 @@ function YasinComponent() {
                     </Col>
                     <Col lg={3}>
 
-                            <Card className="card-lift--hover shadow border-0" style={{textAlign: "left"}}>
+                            <Card className="card-lift--hover shadow border-0 rounded" style={{textAlign: "left"}}>
                                 <CardImg/>
                                 <CardBody>
                                     <CardTitle id={"hdr"}>Scalable</CardTitle>
