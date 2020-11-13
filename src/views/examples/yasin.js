@@ -32,7 +32,7 @@ function YasinComponent() {
 
                 <Row className="yk7">
                     <Col lg={3}>
-                        <Card className={"yk"}  style={{textAlign: "left"}}>
+                        <Card className="card-lift--hover shadow border-0 rounded"  style={{textAlign: "left"}}>
                             <CardImg/>
                             <CardBody>
                                 <CardTitle id={"hdr"}>Modular</CardTitle>
@@ -41,16 +41,18 @@ function YasinComponent() {
                         </Card>
                     </Col>
                     <Col lg={3}>
-                        <Card id={"hdr"} className={"yk"} style={{textAlign: "left"}}>
-                            <CardImg/>
-                            <CardBody>
-                                <CardTitle id={"hdr"}>Responsive</CardTitle>
-                                <CardText>Quick is optimized to work for most devices.</CardText>
-                            </CardBody>
-                        </Card>
+
+                            <Card className="card-lift--hover shadow border-0" style={{textAlign: "left"}}>
+                                <CardImg/>
+                                <CardBody>
+                                    <CardTitle id={"hdr"}>Scalable</CardTitle>
+                                    <CardText>Remain consistent while developing new features.</CardText>
+                                </CardBody>
+                            </Card>
+
                     </Col>
                     <Col lg={3}>
-                        <Card className={"yk"} style={{textAlign: "left"}}>
+                        <Card className="card-lift--hover shadow border-0 rounded"  style={{textAlign: "left"}}>
                             <CardImg/>
                             <CardBody>
                                 <CardTitle id={"hdr"}>Scalable</CardTitle>
@@ -58,8 +60,9 @@ function YasinComponent() {
                             </CardBody>
                         </Card>
                     </Col>
+
                     <Col lg={3}>
-                        <Card className={"yk"} style={{textAlign: "left"}}>
+                        <Card className="card-lift--hover shadow border-0 rounded" style={{textAlign: "left"}}>
                             <CardImg/>
                             <CardBody>
                                 <CardTitle id={"hdr"}>Customizable</CardTitle>

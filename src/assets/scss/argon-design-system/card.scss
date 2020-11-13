@@ -96,7 +96,9 @@
 
 .card-lift--hover {
     &:hover {
-        transform: translateY(-20px);
+        transform: translateY(-5px);
         @include transition($transition-base);
+        background-color: #6610f2;
+        color: white;
     }
 }

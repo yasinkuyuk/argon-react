@@ -11,6 +11,6 @@
 }
 
 
-#hdr{
-    font-weight: bold;
+.rounded{
+    border-radius: 10px !important;
 }
